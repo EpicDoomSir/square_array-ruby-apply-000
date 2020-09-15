@@ -6,3 +6,7 @@ def square_array(array)
     counter += 1
   end
 end
+
+def square_array2(array)
+  new_array = array.collect{|x| x * x}
+end
